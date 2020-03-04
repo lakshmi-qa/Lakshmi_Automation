@@ -23,14 +23,11 @@ public class StepDefinition{
 	BasePage bp=new BasePage();
 	WebDriver driver;
 	@Given("^User is on the home page$")
-	public void user_is_on_the_home_page() {
-		bp.initialization();
-	}
-	/*public void launchURL(DataTable url){
+	public void launchURL(DataTable url){
 		List<List<String>> urlValue =  url.raw();
 		hp.openHomePage(urlValue.get(0).get(0));
 	}
-	*/
+	
 	@When("^User adds two products to cart$")
 	public void addProductsToCart() throws Exception {
 		System.out.println("Before adding products to cart");
