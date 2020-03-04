@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite configfailurepolicy="continue" thread-count="1" parallel="tests" name="Failed suite [BDD Test Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="1" parallel="tests" name="Functional(failed)">
+    <classes>
+      <class name="tests.FunctionalTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="verifyOrderPlacement"/>
+        </methods>
+      </class> <!-- tests.FunctionalTest -->
+    </classes>
+  </test> <!-- Functional(failed) -->
+</suite> <!-- Failed suite [BDD Test Suite] -->

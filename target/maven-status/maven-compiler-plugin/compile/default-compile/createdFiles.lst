@@ -1,0 +1,9 @@
+com\qa\pages\LoginPage.class
+com\qa\pages\AddressPage.class
+com\qa\util\BasePage.class
+com\qa\pages\HomePage.class
+com\qa\pages\ShippingPage.class
+com\qa\features\StepDefinition.class
+com\qa\runner\TestRunner.class
+com\qa\stepDefinitions\StepDefinition.class
+com\qa\pages\PaymentPage.class
